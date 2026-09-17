@@ -1,7 +1,7 @@
 {
   // ── Inherited from the instructor's own configuration (see the course's
   //    VS Code guide): subtract what crowds thought, then invite on purpose ──
-  "window.commandCenter": false,
+  "window.commandCenter": true,
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
@@ -10,14 +10,14 @@
   "workbench.browser.showInTitleBar": true,
   "terminal.integrated.initialHint": false,
   "terminal.integrated.showLinkHover": false,
-
   // one assistant, deliberately — the ambient chorus off
   "chat.disableAIFeatures": true,
   "chat.agent.enabled": false,
   "workbench.commandPalette.showAskInChat": false,
   "workbench.browser.enableChatTools": false,
-  "github.copilot.enable": { "*": false },
-
+  "github.copilot.enable": {
+    "*": false
+  },
   // editor feel
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
@@ -27,8 +27,37 @@
   "editor.inlineSuggest.enabled": true,
   "python.analysis.typeCheckingMode": "strict",
   "adrManager.reportButton.enabled": true,
-
   // this project's color (Peacock)
   "peacock.color": "#A8C930",
-  "peacock.affectStatusAndTitleBorders": true
+  "peacock.affectStatusAndTitleBorders": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#bbd755",
+    "activityBar.activeBorder": "#15202b",
+    "activityBar.background": "#bbd755",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#2b97b5",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "activityBarTop.activeBackground": "#bbd755",
+    "activityBarTop.activeBorder": "#15202b",
+    "activityBarTop.background": "#bbd755",
+    "activityBarTop.foreground": "#15202b",
+    "activityBarTop.inactiveForeground": "#15202b99",
+    "commandCenter.border": "#15202b99",
+    "commandCenter.foreground": "#15202b",
+    "sash.hoverBorder": "#bbd755",
+    "statusBar.background": "#a8c930",
+    "statusBar.border": "#a8c930",
+    "statusBar.debuggingBackground": "#a8c930",
+    "statusBar.debuggingForeground": "#15202b",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#86a026",
+    "statusBarItem.remoteBackground": "#25819a",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#a8c930",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#a8c930",
+    "titleBar.inactiveBackground": "#a8c93099",
+    "titleBar.inactiveForeground": "#15202b99"
+  }
 }
